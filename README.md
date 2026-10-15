@@ -230,11 +230,8 @@ Expected improvements after optimization:
 
 ```
 MinecraftOptimizer/
-├── minecraft_optimizer.bat          (Simple - 11 features)
 ├── minecraft_optimizer_ultimate.bat (Ultimate - 100+ features)
-├── minecraft_optimizer.py           (GUI - Basic)
 ├── minecraft_optimizer_ultimate.py  (GUI - 100+ features)
-├── minecraft_optimizer_pro.py       (Modern UI - Best!)
 └── README.md                        (This file)
 ```
 
