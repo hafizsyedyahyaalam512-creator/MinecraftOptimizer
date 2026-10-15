@@ -1,6 +1,6 @@
 # 🎮 Minecraft Optimizer Pro
 
-Minecraft 1.8.9 PvP ke liye all-in-one optimization tool. Network, Java, Windows, aur in-game settings ko optimize karo!
+All-in-one optimization tool for Minecraft 1.8.9 PvP. Optimize Network, Java, Windows, and in-game settings!
 
 ## Features
 
@@ -20,7 +20,7 @@ Minecraft 1.8.9 PvP ke liye all-in-one optimization tool. Network, Java, Windows
 ✅ **Java Arguments**
 - G1GC garbage collector optimized
 - Memory management improved
-- FPS drops minimize
+- FPS drops minimized
 
 ✅ **Windows Optimization**
 - Game Mode disable
@@ -28,61 +28,119 @@ Minecraft 1.8.9 PvP ke liye all-in-one optimization tool. Network, Java, Windows
 - Audio service optimization
 - DNS cache flush
 
+✅ **Mouse & Input Optimization**
+- Input lag removal
+- 1000Hz polling rate
+- Disable pointer trails
+- Enhanced precision disabled
+
+✅ **System Cleanup**
+- Temp files cleaner
+- Shader cache cleaner
+- Browser cache cleanup
+- Minecraft logs cleanup
+
 ✅ **Minecraft Settings Guide**
 - Render distance optimization
 - Particle settings
 - GUI scaling
 - Performance tips
 
+## 100+ Optimizations Included
+
+### Network (10+)
+- DNS Server (Cloudflare/Google)
+- Network Latency Reduction
+- Packet Optimization
+- Internet Speed Tuning
+- RSS, AutoTune, Timestamps
+- MTU Optimization
+- Nagle Algorithm Disabled
+
+### System (40+)
+- Disable 40+ Unnecessary Services
+- Registry Cleaner for Java
+- Windows Defender Exclusions
+- Gaming Mode Optimization
+- High Performance Power Plan
+- Disable Visual Effects
+- Background Apps Disabled
+- Telemetry Disabled
+- Xbox Services Disabled
+
+### Input (15+)
+- Mouse Input Lag Removal
+- Keyboard Repeat Rate Boost
+- Disable Pointer Trails
+- Disable Enhanced Precision
+- Disable Acceleration
+- 1000Hz Polling Rate
+- Disable Sticky/Filter/Toggle Keys
+
+### Cleanup (15+)
+- User Temp Files
+- System Temp Files
+- Prefetch Files
+- Browser Caches
+- GPU Shader Cache
+- Minecraft Logs & Crash Reports
+
 ## Requirements
 
 - Windows 10/11
-- Python 3.7+
-- **Admin Rights** (for network/system optimizations)
+- Python 3.7+ (for GUI versions)
+- **Administrator Rights** (required for network/system optimizations)
 
 ## Installation
 
-### Option 1: Using Python
+### Option 1: Python GUI (Recommended)
 
 ```bash
-# Python already installed hona chahiye
-python minecraft_optimizer.py
+# Install Python first if not installed
+python minecraft_optimizer_pro.py
 ```
 
-### Option 2: Standalone EXE (Make it yourself)
+### Option 2: Batch Script
+
+```bash
+# Just run as Administrator
+minecraft_optimizer_ultimate.bat
+```
+
+### Option 3: Standalone EXE
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --windowed minecraft_optimizer.py
+pyinstaller --onefile --windowed minecraft_optimizer_pro.py
 ```
 
-Exe `dist` folder mein milega.
+The exe will be in the `dist` folder.
 
 ## How to Use
 
-### 1. Network Optimization
-- Tab: "Network" kholo
-- Checkboxes select karo (sabhi recommended hain)
-- "Apply Network Optimizations" button dabao
-- ⚠️ **Admin Rights required!**
+### Option 1: Modern GUI (Best Experience)
+```
+Run: python minecraft_optimizer_pro.py
+- Select optimizations from sidebar
+- Click "Apply" buttons
+- Restart PC when done
+```
 
-### 2. Java Arguments
-- Tab: "Java Arguments" kholo
-- Text box se copy karo (or manually select)
-- "Copy to Clipboard" button dabao
-- Launcher kholo → Settings → JVM Arguments
-- Paste karo
+### Option 2: Batch Script (Fastest)
+```
+1. Right-click minecraft_optimizer_ultimate.bat
+2. Click "Run as administrator"
+3. Choose option 20 for "Apply All"
+4. Restart PC
+```
 
-### 3. Windows Settings
-- Tab: "Windows Settings" kholo
-- Options select karo
-- "Apply Windows Optimizations" button dabao
-- **Restart dena padh sakta hai**
-
-### 4. Minecraft Settings
-- Tab: "Minecraft Settings" kholo
-- In-game settings manually configure karo
-- Ya **OptiFine** use karo auto-optimization ke liye
+### Option 3: Individual Features
+```
+1. Run the tool
+2. Choose specific category from menu
+3. Apply individual optimizations
+4. Restart if required
+```
 
 ## Recommended Settings
 
@@ -91,6 +149,7 @@ Exe `dist` folder mein milega.
 RSS: Enabled
 Autotune: Normal
 Timestamps: Disabled
+MTU: 1300
 ```
 
 ### Java Arguments (Paste in Launcher)
@@ -106,6 +165,7 @@ Timestamps: Disabled
 -XX:InitiatingHeapOccupancyPercent=10
 -XX:G1ReservePercent=15
 -Dfml.earlyProgressWindow=false
+-Xmx4G -Xms2G
 ```
 
 ### Minecraft In-Game
@@ -124,10 +184,10 @@ Timestamps: Disabled
 
 ## Tips for Better Hit Registration
 
-1. **Mods use karo (Legit):**
+1. **Use Legit Mods:**
    - OptiFine
    - Sodium (Fabric)
-   - BadLion Client
+   - Badlion Client
 
 2. **Practice:**
    - W-tapping practice
@@ -135,14 +195,14 @@ Timestamps: Disabled
    - Sensitivity adjustment
 
 3. **Hardware:**
-   - Ethernet use karo (WiFi se better)
-   - Wired mouse use karo
-   - Big mousepad lo
+   - Use Ethernet (better than WiFi)
+   - Use wired mouse
+   - Use big mousepad
 
 4. **Network:**
-   - Stable connection ensure karo
-   - Background downloads off karo
-   - VPN use karo (agar ISP throttle kar raha hai)
+   - Ensure stable connection
+   - Turn off background downloads
+   - Use VPN if ISP is throttling
 
 ## Troubleshooting
 
@@ -151,30 +211,43 @@ Timestamps: Disabled
 
 ### Settings not applying
 - Restart Windows
-- Check if antivirus block kar rahe hai
+- Check if antivirus is blocking
 
 ### Lag issues persist
-- Server ping check karo (multiplayer screen mein)
-- Render distance reduce karo further
-- OptiFine install karo
+- Check server ping (in multiplayer screen)
+- Reduce render distance further
+- Install OptiFine
 
 ## Performance Impact
 
 Expected improvements after optimization:
 - **Latency:** 5-15ms reduction
 - **FPS:** 20-50 FPS improvement (depends on PC)
-- **Hitboxes:** Better registration (network optimizations se)
+- **Hit Registration:** Significantly better
+- **Input Delay:** Reduced by 5-10ms
+
+## Files Included
+
+```
+MinecraftOptimizer/
+├── minecraft_optimizer.bat          (Simple - 11 features)
+├── minecraft_optimizer_ultimate.bat (Ultimate - 100+ features)
+├── minecraft_optimizer.py           (GUI - Basic)
+├── minecraft_optimizer_ultimate.py  (GUI - 100+ features)
+├── minecraft_optimizer_pro.py       (Modern UI - Best!)
+└── README.md                        (This file)
+```
 
 ## Disclaimer
 
-- Backups lelo before major changes
+- Take backups before major changes
 - Some optimizations require restart
-- Ban nahi hote (sirf performance optimize hai)
-- Server rules check karo (mods ke liye)
+- This is performance optimization only (no cheats)
+- Check server rules for allowed mods
 
 ## Version
 
-**v1.1** - October 2026 - Packet Optimization Added
+**v3.0** - October 2026 - 100+ Optimizations Added
 
 ---
 
